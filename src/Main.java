@@ -48,23 +48,46 @@ public class Main {
 //        System.out.println("Tocando agora: " + minhaMusica.titulo);
 //        System.out.println("Artista: "+ minhaMusica.artista);
 
+//
+//        Aluno aluno1 = new Aluno();
+//        aluno1.nome = "andre";
+//        aluno1.nota = 6;
+//        aluno1.verificarStatus();
+//
+//        Aluno aluno2 = new Aluno();
+//        aluno2.nome = "Paulo";
+//        aluno2.nota = 9;
+//
+//        aluno2.verificarStatus();
 
-        Aluno aluno1 = new Aluno();
-        aluno1.nome = "andre";
-        aluno1.nota = 6;
+
+
+
+// ContaBancaria minhaconta = new ContaBancaria();
+// minhaconta.titular = "paulo";
+// minhaconta.saldo = 3000;
+//
+// minhaconta.depositar(250);
+// minhaconta.sacar(400);
+//
+// minhaconta.exibirdados();
+
+//        Produto prod1 = new Produto("monitor", 800, "dell", 80);
+//        prod1.mostrarInformacoes();
+
+
+//        Musica minhausica = new Musica("camarim", "Kayblack", 343);
+//
+//        minhausica.exibirFichaTecnica();
+
+//        Carro carro1 = new Carro("fiat", "uno", 2006);
+//
+//        carro1.mostrarInformacoes();
+
+
+
+        Aluno aluno1 = new Aluno("paulo", 6);
+
         aluno1.verificarStatus();
-
-        Aluno aluno2 = new Aluno();
-        aluno2.nome = "Paulo";
-        aluno2.nota = 9;
-
-        aluno2.verificarStatus();
-
-
-
-
-
-
-
     }
 }
