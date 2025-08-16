@@ -1,8 +1,10 @@
 public class ContaBancaria {
     public String titular;
-    public double saldo;
+    private double saldo;
 
-
+public double getSaldo(){
+    return saldo;
+}
     // Metodos
     public void depositar(double valor){
 //        saldo = saldo + valor;
@@ -11,11 +13,24 @@ public class ContaBancaria {
 
     }
     public void sacar(double valor){
+        System.out.println("saldo antigo: "+ saldo);
         saldo -= valor;
     }
+
+public ContaBancaria(String titular,double saldo){
+    this.titular = titular;
+    this.saldo = saldo;
+
+}
+
+
+
+
+
     public void exibirdados(){
         System.out.println("titular: " + titular);
-        System.out.println("saldo: "+ saldo);
+        System.out.println("novo saldo: "+ saldo);
+
     }
 
 }

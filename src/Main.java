@@ -63,14 +63,6 @@ public class Main {
 
 
 
-// ContaBancaria minhaconta = new ContaBancaria();
-// minhaconta.titular = "paulo";
-// minhaconta.saldo = 3000;
-//
-// minhaconta.depositar(250);
-// minhaconta.sacar(400);
-//
-// minhaconta.exibirdados();
 
 //        Produto prod1 = new Produto("monitor", 800, "dell", 80);
 //        prod1.mostrarInformacoes();
@@ -86,8 +78,42 @@ public class Main {
 
 
 
-        Aluno aluno1 = new Aluno("paulo", 6);
+//        Aluno aluno1 = new Aluno("paulo", 6);
+//
+//        aluno1.verificarStatus();
+//
 
-        aluno1.verificarStatus();
+// ContaBancaria minhaconta = new ContaBancaria();
+// minhaconta.titular = "paulo";
+// minhaconta.saldo = 3000;
+//
+// minhaconta.depositar(250);
+// minhaconta.sacar(400);
+//
+// minhaconta.exibirdados();
+
+
+// ContaBancaria minhaconta = new ContaBancaria("paulo",5000);
+//
+// minhaconta.getSaldo();
+//
+//
+//
+// minhaconta.depositar(230);
+// minhaconta.sacar(300);
+//
+//
+// minhaconta.exibirdados();
+
+
+Produto notebook = new Produto("notebook",4000,10);
+        System.out.println("preco inicial: "+ notebook.getPreco() );
+
+        notebook.setPreco(-90);
+        notebook.setPreco(4300);
+
+        System.out.println("Novo preco: " + notebook.getPreco());
+
+
     }
 }
