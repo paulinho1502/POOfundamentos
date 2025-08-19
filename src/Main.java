@@ -106,14 +106,27 @@ public class Main {
 // minhaconta.exibirdados();
 
 
-Produto notebook = new Produto("notebook",4000,10);
-        System.out.println("preco inicial: "+ notebook.getPreco() );
+//Produto notebook = new Produto("notebook",4000,10);
+//        System.out.println("preco inicial: "+ notebook.getPreco() );
+//
+//        notebook.setPreco(-90);
+//        notebook.setPreco(4300);
+//
+//        System.out.println("Novo preco: " + notebook.getPreco());
 
-        notebook.setPreco(-90);
-        notebook.setPreco(4300);
 
-        System.out.println("Novo preco: " + notebook.getPreco());
 
+
+
+Atleta jogador = new Atleta("neymar jr" , "futebol");
+    jogador.exibir();
+
+
+//Carro2 carro1 = new Carro2("Ford", 4);
+//carro1.exibircarro();
+//
+//Bicicleta bike1 = new Bicicleta("Caloi " , 7);
+//bike1.exibirbicicleta();
 
     }
 }
