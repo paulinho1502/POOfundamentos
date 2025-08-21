@@ -14,7 +14,13 @@ public class Atleta extends Pessoa{
         return esporte;
     }
 
-    public void exibir (){
+    public void ex
+
+
+
+
+
+            
         System.out.println("Atleta: " + nome);
         System.out.println("Esporte: " + esporte);
 
